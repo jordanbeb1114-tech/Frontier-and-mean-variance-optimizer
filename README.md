@@ -34,6 +34,5 @@ Risk-free rate is pulled live from FRED (3-month T-bill, series `DTB3`). To enab
 
 This is standard Markowitz mean-variance optimization — it's sensitive to the input return estimates, which here are just trailing historical means. That's a well-known weak point of MVO in general, not something specific to this implementation.
 
-Ideas for later: s![Uploading Sc<img width="551" height="377" alt="Screenshot 2026-07-30 at 1 42 20 AM" src="https://github.com/user-attachments/assets/33067ad8-3894-46fe-b10e-2c97dd419685" />
-reenshot 2026-07-30 at 1.42.20 AM.png…]()
+Ideas for later:
 wap in Black-Litterman for the return estimates, add a rolling backtest to see realized vs. in-sample performance, add turnover/transaction-cost constraints, wrap it in a small Streamlit app.
