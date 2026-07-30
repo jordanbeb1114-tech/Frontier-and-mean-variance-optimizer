@@ -1,10 +1,3 @@
-Looking Ahead: Ways to Build on This Project
-There are a lot of interesting directions we could take this project! Here are a few thoughts on how to extend it:
-
-Enhancing Return Estimates: Instead of just using historical mean returns (which MVO can be pretty sensitive to), we could explore something like Black-Litterman blending to get more robust expected return inputs.
-Backtesting the Strategy: It would be really insightful to run a rolling re-optimization backtest. This would help us see how the optimized portfolios would have performed in real-world scenarios, comparing realized performance against what our in-sample analysis suggested.
-Adding Real-World Constraints: For a more practical application, we could incorporate transaction costs or turnover constraints, especially if we're trying to optimize against an existing portfolio of holdings.
-Interactive Interface: Imagine wrapping this whole analysis in a Streamlit or Dash application! That would allow for an interactive experience where users could adjust a risk-tolerance slider and see the portfolio changes in real-time.
 
 Efficient Frontier & Mean-Variance Optimizer
 Pulls historical prices for a basket of ETFs, estimates expected returns and a shrunk covariance matrix, and solves for the Max Sharpe and Minimum Variance portfolios. Traces the efficient frontier and plots it against a Monte Carlo cloud of random portfolios, with allocation breakdowns and a correlation heatmap.
